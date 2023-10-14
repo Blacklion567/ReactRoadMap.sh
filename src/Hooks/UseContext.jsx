@@ -3,12 +3,16 @@ import { useState, createContext, useContext } from "react";
 const UserContext = createContext();
 
 const UseContext = () => {
-  const [user, setUser] = useState("Jesse Hall");
+  const [user, setUser] = useState({
+    student1: 'Blacklion567',
+    student2: 'Chrisimos',
+    student3: 'Aristides',
+    student4: 'Proline',
+  });
 
 
   return (
     <UserContext.Provider value={user}>
-      <h1>{`Hello ${user}!`}</h1>
       <Component2 />
     </UserContext.Provider>
   );
@@ -47,7 +51,10 @@ function Component5() {
   return (
     <>
       <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
+      <h2>{`Hello ${user.student1}`}</h2>
+      <h2>{`Hello ${user.student2}`}</h2>
+      <h2>{`Hello ${user.student3}`}</h2>
+      <h2>{`Hello ${user.student4}`}</h2>
     </>
   );
 }
