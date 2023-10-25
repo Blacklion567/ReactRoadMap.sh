@@ -1,9 +1,9 @@
-import UseState from "./Hooks/useState";
+import UseCallback from "./Hooks/UseCallback";
 
 const App = () => {
   return (
     <>
-      <UseState />
+      <UseCallback />
     </>
   );
 };
