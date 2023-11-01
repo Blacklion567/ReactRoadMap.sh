@@ -1,19 +1,19 @@
 // # REACT FUNCTION COMPONENT EXAMPLE
 const ReactFunction = () => {
-  const greeting = 'Hellow Player Welcome to React Function';
+  const greeting = 'REACT FUNCTION';
 
   return (
     <>
-      <h1>{greeting}</h1>
+      <p>{greeting}</p>
       <Headline />
     </>
   );
 };
 
 function Headline() {
-  const greeting = 'Hellow I Welcome You Again Player';
+  const greeting = 'React Functions';
 
-  return <h1>{greeting}</h1>;
+  return <p>{greeting}</p>;
 }
 
 export default ReactFunction;
