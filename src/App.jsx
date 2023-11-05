@@ -1,13 +1,16 @@
-import ReactFunction from "./Functions/ReactFunction";
-import ReactFunctionComponentsprops from "./Functions/ReactFunctionComponents.props";
-import ReactArrowFunction from "./Functions/ReactArrowFunction";
+import R_Function from "./Functions/R_Function";
+import R_FunctionComponentsprops from "./Functions/R_FunctionComponents.props";
+import R_ArrowFunction from "./Functions/R_ArrowFunction";
+import R_FunctionState from "./Functions/R_FunctionState";
+
 
 const App = () => {
   return (
     <>
-      <ReactFunction />
-      <ReactFunctionComponentsprops />
-      <ReactArrowFunction />
+      <R_Function />
+      <R_FunctionComponentsprops />
+      <R_ArrowFunction />
+      <R_FunctionState />
     </>
   );
 };
