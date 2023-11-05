@@ -2,7 +2,6 @@
 function ReactFunctionComponentsprops() {
 
   const greeting = 'REACT FUNCTION COMPONENT: PROPS';
-
   const greetings = 'React Function Component Props';
 
   return (
