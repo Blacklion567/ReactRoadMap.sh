@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import Todos from "../Extra/Todos";
+import UseCallbackTodos from "./UseCallback.Todos";
 
 const UseCallback = () => {
   const [count, setCount] = useState(0);
@@ -14,7 +14,7 @@ const UseCallback = () => {
 
   return (
     <>
-      <Todos todos={todos} addTodo={addTodo} />
+      <UseCallbackTodos todos={todos} addTodo={addTodo} />
       <hr />
       <div>
         Count: {count}
