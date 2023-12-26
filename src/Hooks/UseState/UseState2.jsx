@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const UseState = () => {
+const UseStateTwo = () => {
 
     const [color, setColor] = useState("red");
 
@@ -80,4 +80,4 @@ const UseState = () => {
     );
 };
 
-export default UseState;
+export default UseStateTwo;
